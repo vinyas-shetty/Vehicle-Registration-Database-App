@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VehicleRegistrationDatabase"
+        tools:targetApi="31">
+        <activity
+            android:name=".CustomQuery"
+            android:exported="false"
+            android:label="Enter Custom Query"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DeleteIns"
+            android:exported="false"
+            android:label="Delete Insurance Details"
+            android:parentActivityName=".Insurance">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".EditIns"
+            android:exported="false"
+            android:label="Update Insurance Details"
+            android:parentActivityName=".Insurance">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".InsertIns"
+            android:exported="false"
+            android:label="Insert Insurance Details"
+            android:parentActivityName=".Insurance">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Insurance"
+            android:exported="false"
+            android:label="Insurance Details"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DeleteDL"
+            android:exported="false"
+            android:label="Delete Driver&apos;s License"
+            android:parentActivityName=".DriversLicense">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".EditDL"
+            android:exported="false"
+            android:label="Update Driver&apos;s License Details"
+            android:parentActivityName=".DriversLicense">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".InsertDL"
+            android:exported="false"
+            android:label="Insert Driver&apos;s License Details"
+            android:parentActivityName=".DriversLicense">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DriversLicense"
+            android:exported="false"
+            android:label="Driver&apos;s License Details"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DeleteOwner"
+            android:exported="false"
+            android:label="Delete Owner Details"
+            android:parentActivityName=".Owner">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".EditOwner"
+            android:exported="false"
+            android:label="Update Owner Details"
+            android:parentActivityName=".Owner">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".OwnerInsert"
+            android:exported="false"
+            android:label="Insert Owner Details"
+            android:parentActivityName=".Owner">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Owner"
+            android:exported="false"
+            android:label="Owner Details"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DeleteVehicle"
+            android:exported="false"
+            android:label="Delete Vehicle Details"
+            android:parentActivityName=".Vehicle">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".EditVehicle"
+            android:exported="false"
+            android:label="Edit Vehicle Details"
+            android:parentActivityName=".Vehicle">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".InsertVehicle"
+            android:exported="false"
+            android:label="Insert Vehicle Details"
+            android:parentActivityName=".Vehicle">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Vehicle"
+            android:exported="false"
+            android:label="Vehicle"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>
